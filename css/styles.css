@@ -2,3 +2,19 @@ p {
   color: #618ad2;
   font-size: 28px;
 }
+textarea.text2_com {
+    color: #618ad2;
+    font-size: 14px;
+    width: 80%; /* Ширина поля в процентах */
+    height: 400px; /* Высота поля в пикселах */
+    resize: none; /* Запрещаем изменять размер */
+   }
+textarea.text_com {
+       width: 80%; /* Ширина поля в процентах */
+       height: 100px; /* Высота поля в пикселах */
+       resize: none; /* Запрещаем изменять размер */
+      }
+div.date {
+    color: #618ad2;
+    font-size: 28px;
+}
