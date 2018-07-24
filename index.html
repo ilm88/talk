@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Болталка</title>
+    </head>
+    <body>
+        <div class="date"></div>
+        <p>
+            Пробный чат для экспериментов.
+        </p>
+        <label>
+            Комментарии:
+        </label>
+        <br />
+        <form name="coments_load">
+            <textarea id="comments" class="text2_com" name="text_comment" cols="200" rows="30" ></textarea>
+            <br />
+            <button id="comment_reload" type="button">Обновить</button>
+        </form>
+
+        <form name="comment">
+            Имя:<br>
+            <input type="text" name="name" />
+            <br>
+            Комментарий:
+            <br>
+            <textarea id="text" class="text_com" name="text_comment" cols="200" rows="5" ></textarea><br>
+            <input type="hidden" name="page_id" value="150" />
+            <input id="send" class="send_comment" type="button" value="Отправить" />
+        </form>
+        <div id='result'></div>
+        <script src="./scripts/time.js"></script>
+        <script src="./scripts/scripts.js"></script>
+        <script src="./scripts/get_comments.js"></script>
+        <script src="./scripts/send_comment.js"></script>
+    </body>
+</html>
